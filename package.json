@@ -1,0 +1,8 @@
+{
+  "name": "fake-utils-lib",
+  "version": "1.0.0",
+  "description": "",
+  "files": ["src"],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,5 +1,7 @@
+import { Helpers } from "./helpers";
+
 export class FakeUtil {
-    getFullName(firstName: string, lastName: string) {
-        return `${firstName} ${lastName}`;
-    }
+  getFullNameCapitalized(firstName: string, lastName: string): string {
+    return `${Helpers.capitalize(firstName)} ${Helpers.capitalize(lastName)}`;
+  }
 }
